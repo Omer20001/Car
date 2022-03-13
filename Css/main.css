@@ -1,0 +1,231 @@
+*,body{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+a{
+    color: white;
+}
+a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+#myVideo {
+    height: 100vh;
+    width: 100%;
+    object-fit: fill;
+    margin-bottom: -7px;
+    position: absolute;
+    top: 0%;
+
+  }
+  header{
+      position: relative;
+      height: 99vh;
+  }
+  
+  nav{
+      width: 100%;
+      position: absolute;
+      top: 0%;
+      z-index: 1    ;
+  }
+.div2{
+    position: absolute;
+    top: 42%;
+ 
+    z-index: 1;
+}
+.div3{
+    position: absolute;
+ top: 85%;
+    z-index: 1;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.div3>div{
+width: 200px;
+}
+.container-menu{
+    
+    display: flex;
+flex-direction: column;
+align-items: center;
+}
+.nav-list{
+    text-transform: uppercase;
+    font-size: small;
+    font-weight: bold;
+    color: white;
+}
+.nav-list:before {
+
+
+    background: white!important;
+
+}
+.nav-list:hover{
+    color: gray;
+}
+.nav-button{
+    background-color: transparent;
+    margin-left: 15px;
+    border: white 1px solid;
+    color: white;
+}
+.nav-button:hover{
+    color: black!important;
+}
+.nav-button:before{
+    background: white!important;
+    
+}
+.hvr-bounce-to-right{
+    padding: 15px;
+    width: 150px;
+}
+
+.discover-btn{
+    border: 0px solid white;
+
+    margin-right: 20px;
+}
+.discover-btn:before{
+    background-color: #A7908A!important;
+}
+.hvr-underline-from-left{
+    color: white;
+    
+}
+.hvr-underline-from-left:hover{
+    color: white;
+    text-decoration: none;
+}
+.hvr-underline-from-left:before{
+    background-color: #fff!important;
+    height: 2px!important;
+}
+
+
+
+
+
+/*Swiper-----------------------------------------*/
+
+
+
+  .swiper-slide1 {
+    text-align: center;
+    font-size: 18px;
+    width: 400px;
+    height: 400px;
+    background-color: #1B1B1B;
+    color: white;
+  }
+
+  .swiper-slide1 img {
+    display: block;
+    width: 475px;
+    height: 300px;
+    object-fit: cover;
+  }
+  /*------------------*/
+
+
+  .hvr-underline-from-right:before {
+   
+    background: white!important;
+    height: 2px!important;
+    
+}
+
+hr{
+    border: 0.1px solid white;
+    background-color: white;
+    width: 75%;
+    height: 0.1px;
+}
+
+
+
+.swiper-slide2>img{
+      width: 330px;
+      height: 330px;
+  }
+  @media (max-width: 760px) {
+    .swiper-button-next {
+      right: 20px;
+      transform: rotate(90deg);
+    }
+
+    .swiper-button-prev {
+      left: 20px;
+      transform: rotate(90deg);
+    }
+  }
+
+
+  @media only screen and (max-width: 1000px) {
+    .center,.left{
+
+        display: none;
+    }
+    .display-4{
+        font-size: 40px;
+    }
+    .discover-btn{
+        width: 100px;
+        font-size: 13px;
+    }
+   .div3>div{
+       width: 100px;
+     
+   }
+   h3{
+       font-size: 18px;
+   }
+   .our-stories{
+    font-size: 24px;
+}
+.view-all{
+    width: 100px;
+}
+
+.swiper-slide1  {
+    
+    width:150px!important;
+    height: 100px;
+    object-fit: cover;
+  }
+
+  .swiper-pagination{
+      display: none;
+  }
+  .swiper-slide1 img {
+    display: block;
+    width: 175px;
+    height: 100px;
+    object-fit: cover;
+  }
+
+  .swiper-slide2>img{
+    width: 130px;
+    height: 130px;
+}
+.lucid-air{
+    font-size: 20px;
+}
+  }
+
+  @media only screen and (max-width: 310px) {
+   .div3>div>p{
+       font-size: 12px;
+   }
+   h3{
+       font-size: 12px;
+   }
+
+   
+  }
